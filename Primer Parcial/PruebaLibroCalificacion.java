@@ -36,13 +36,14 @@ public class PruebaLibroCalificacion{
         entrada.nextLine();
 
 
-        System.out.println("vamos a cambiar los valores del objeto mLIniciado");
+        System.out.println("Cambiaremos los valores del objeto Iniciado");
         String lnombre=entrada.nextLine();
+        System.out.println("");
 
-        System.out.println("Escriba el nuevo nombre fel profesor para el onjetomLIniciado");
+        System.out.println("Escriba el nuevo nombre del profesor para el objeto Iniciado");
         String elnombreProfesor=entrada.nextLine();
 
-        System.out.println("Escriba la nueva cantidad de horas del curso para el objeto mLIniciado");
+        System.out.println("Escriba la nueva cantidad de horas del curso para el objeto Iniciado");
         int lahoras=entrada.nextInt();
         miLibrocalificaciones3Iniciado.establecerParametrosDelCurso(lnombre, elnombreProfesor, lahoras);
         miLibrocalificaciones3Iniciado.mostrarMensaje();
